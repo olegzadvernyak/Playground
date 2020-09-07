@@ -1,0 +1,3 @@
+[submodule "PlaygroundLib"]
+	path = PlaygroundLib
+	url = https://github.com/olegzadvernyak/PlaygroundLib.git
