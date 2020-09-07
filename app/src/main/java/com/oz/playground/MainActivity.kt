@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.work.OneTimeWorkRequest
 import androidx.work.WorkManager
 import androidx.work.WorkRequest
+import com.oz.pglib.Dummy
 import com.oz.remotedpcaidl.DpcRemote
 import com.oz.remotedpcaidl.UpdateStatusCallback
 import kotlinx.android.synthetic.main.activity_main.*
@@ -23,6 +24,22 @@ import java.security.Signature
 import java.security.spec.PKCS8EncodedKeySpec
 
 class MainActivity : AppCompatActivity() {
+
+    val dummy = object : Dummy {
+
+        override fun foo() {
+            TODO("Not yet implemented")
+        }
+
+        override fun bar() {
+            TODO("Not yet implemented")
+        }
+
+        override fun foo2() {
+            TODO("Not yet implemented")
+        }
+
+    }
 
     val certificate = "-----BEGIN PRIVATE KEY-----\n" +
             "MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQguF0fOvs1c6NcSLh9\n" +

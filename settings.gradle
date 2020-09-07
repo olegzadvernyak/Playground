@@ -1,3 +1,5 @@
+include ':pglib'
 include ':remotedpcaidl'
 include ':app'
+project(':pglib').projectDir = new File(rootDir, 'PlaygroundLib/pglib/')
 rootProject.name = "Playground"
