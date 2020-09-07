@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <button type="button" onclick="setButtonEnabled(123, true)">setButtonEnabled</button>
+        <button type="button" onclick="setButtonVisibility(124, true)">setButtonVisibility</button>
+        <button type="button" onclick="setButtonLabel(124, 'text')">setButtonLabel</button>
+        <button type="button" onclick="addHostname('hostname')">addHostname</button>
+        <script type="text/javascript">
+    function setButtonEnabled(id, enabled) {
+        TrustonicScreenInterface.setButtonEnabled(id, enabled);
+    }
+    function setButtonVisibility(id, enabled) {
+        TrustonicScreenInterface.setButtonVisibility(id, enabled);
+    }
+    function setButtonLabel(id, text) {
+        TrustonicScreenInterface.setButtonLabel(id, text);
+    }
+    function addHostname(hostname) {
+        TrustonicScreenInterface.addHostname(hostname);
+    }
+</script>
+    </body>
+</html>

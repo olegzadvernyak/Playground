@@ -1,0 +1,3 @@
+include ':remotedpcaidl'
+include ':app'
+rootProject.name = "Playground"
