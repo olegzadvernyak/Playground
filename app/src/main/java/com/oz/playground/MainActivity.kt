@@ -39,6 +39,10 @@ class MainActivity : AppCompatActivity() {
             TODO("Not yet implemented")
         }
 
+        override fun bar2() {
+            TODO("Not yet implemented")
+        }
+
     }
 
     val certificate = "-----BEGIN PRIVATE KEY-----\n" +
